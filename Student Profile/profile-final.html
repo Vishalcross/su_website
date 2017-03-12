@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"   integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"          crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0f7c31cf63.js"></script>
+
+    <style>
+        .custom-content-wrapper {
+            border-bottom: 1px solid #bdbdbd;
+        }
+        body{
+            background-color:lavender;
+        }
+        .shadow{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+        }
+        .symbol{
+            color:grey;
+            position:relative;
+            top:30px;
+            left:40px;
+            font-size:250%;
+        }
+        .left-container{
+            position:relative;
+            width:300px;
+            background-color:#7E8DD3;
+            left:-20px;
+            margin-bottom:30px;
+            padding-bottom:0;
+        }
+
+        .profile-picture{
+            height:300px;
+            width:300px;
+        }
+        .name{
+            position:relative;
+            z-index:1;
+            top:-80px;
+            font-family:"Raleway", sans-serif;
+            color:white;
+            font-size:170%;
+            left:-30px;
+        }
+        .job-title{
+            position:relative;
+            top:-85px;
+            font-family:"Montserrat", sans-serif !important;
+            color:white;
+            font-size:120%;
+            left:-30px;
+        }
+
+        .profile-iconset{
+            font-size: 160%;
+            position:relative;
+            left:-10px;
+        }
+
+        .info-holder{
+            font-family: "Ubuntu", sans-serif;
+
+            position:relative;
+            color:ghostwhite;
+            top:-60px;
+        }
+        .about-text{
+            width:210px;
+            position:relative;
+            font-size:90%;
+            text-align:justify;
+            top:-30px;
+            left:30px;
+        }
+        .phone-number{
+            position:relative;
+            top:-30px;
+            left:40px;
+            font-size:100%;
+
+        }
+        .social a:visited{
+            color:ghostwhite;
+        }
+        .social a:hover{
+            color:ghostwhite;
+        }
+        .social-icon{
+            margin-left:58px;
+            font-size:200%;
+        }
+
+        .skills-header{
+            position:relative;
+            top:-27px;
+            left:70px;
+            font-weight: bold;
+            font-size:120%;
+            margin-bottom:-20px;
+        }
+        .skills-list{
+
+            position:relative;
+            left:40px;
+            font-size:110%;
+            font-weight:bold;
+        }
+        .profile-skills{
+            background-color:#E57777;
+            width:300px;
+            top:-20px;
+            position:relative;
+            font-size:90%;
+        }
+        .contact-details{
+            background-color: #EDA931;
+            position: relative;
+            top:-20px;
+            font-size: 100%;
+
+        }
+        .social{
+            position: relative;
+            top:20px;
+        }
+        .email-id{
+            position:relative;
+            top:-30px;
+            left:40px;
+            font-size:100% !important;
+        }
+        .div-padding{
+            padding:9%;
+        }
+        .about{
+            position:relative;
+        }
+        .social-header{
+            font-weight: bold;
+            font-size: 110%;
+            text-align:center;
+            position: relative;
+            top:-10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <br><br>
+    <div class="row">
+        <div class="col-md-3 col-md-push-2">
+            <div class="left-container shadow">
+                <div class="image-holder">
+                    <img  class="profile-picture" src="1.jpg" />
+                </div>
+                <div class="name-holder">
+                    <div class="name text-center">John Taylor</div>
+                    <div class="job-title text-center">Manager</div>
+                </div>
+
+                <div class="info-holder">
+                    <div class="about div-padding">
+                        <span class="glyphicon glyphicon-user profile-iconset about-icon"></span>
+                        <p class="about-text">I manage business effectively and tactfully by employing statistical models and 20 years of experience. I also do web devlopment as a part time job</p>
+                    </div>
+
+
+                    <div class="profile-skills div-padding">
+                        <span class="glyphicon glyphicon-wrench profile-iconset"></span>
+                        <p class="skills-header">SKILLS</p>
+                        <ul class="skills-list">
+                            <li>Cricket</li>
+                            <li>Coding</li>
+                            <li>Camping</li>
+                            <li>Driving</li>
+                            <li>Arduino</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-details div-padding">
+                        <span class="glyphicon glyphicon-earphone profile-iconset"></span>
+                        <p class="phone-number">+9-6309237462378946</p>
+                            <hr>
+                        <span class="glyphicon glyphicon-envelope profile-iconset"></span>
+                        <p class="email-id">vishalcross36@gmail.com</p>
+                    </div>
+
+                    <div class="social">
+                        <p class="social-header">Connect</p>
+                        <abbr title="Facebook Profile"><a href="#"><i class="social-facebook social-icon fa fa-facebook" aria-hidden="true"></i></a></abbr>
+                        <abbr title="GitHub Profile"><a href="#"><i class="social-github social-icon fa fa-github" aria-hidden="true"></i></a></abbr>
+                        <abbr title="LinkedIn Profile"><a href="#"><i class="social-linkedin social-icon fa fa-linkedin-square" aria-hidden="true"></i></a></abbr>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-5 col-md-push-2" >
+            <div class="shadow">
+                <div class="row" style="background-color:white">
+                    <div class="col-md-2">
+                        <span class="glyphicon glyphicon-lock symbol"></span>
+                    </div>
+
+
+                    <div class="col-md-10" style="padding:20px;">
+                        <h3 class="text-muted" style="font-color:grey "><b>WORK EXPERIENCE</b></h3>
+                        <div class="headspace"></div>
+                        <h5>
+                            <b >UI/UX Designer @Academy</b>
+                        </h5>
+                        liaislrjlkasksfmlksdmdmflksmddflkmsdlfkfmsd;lamf
+                        <br>
+                        <br>
+                        <div class="custom-content-wrapper"></div>
+                        <br>
+                        <h5>
+                            <b>UI/UX Designer @Academy</b>
+                        </h5>
+                        liaislrjlkasksfmlksdmdmflksmddflkmsdlfkfmsd;lamf
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="shadow">
+                <div class="row"style="background-color:white">
+                    <div class="col-md-2">
+                        <span class="glyphicon glyphicon-education symbol"></span>
+                    </div>
+
+
+                    <div class="col-md-10"style="padding:20px;">
+                        <h3 class="text-muted" style="font-color:grey"><b>EDUCATION</b></h3>
+                        <div class="headspace"></div>
+                        <h5>
+                            <b>UI/UX Designer @Academy</b>
+                        </h5>
+                        liaislrjlkasksfmlksdmdmflksmddflkmsdlfkfmsd;lamf
+                        <br>
+                        <br>
+                        <div class="custom-content-wrapper"></div>
+                        <br>
+                        <h5>
+                            <b>UI/UX Designer @Academy</b>
+                        </h5>
+                        liaislrjlkasksfmlksdmdmflksmddflkmsdlfkfmsd;lamf
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="shadow">
+                <div class="row"style="background-color:white">
+                    <div class="col-md-2">
+                        <span class="glyphicon glyphicon-tent symbol"></span>
+                    </div>
+
+
+                    <div class="col-md-10"style="padding:20px;">
+                        <h3 class="text-muted" style="font-color:grey"><b>INTERESTS</b></h3>
+                        <div class="headspace"></div>
+                        <h5>
+                            <b>UI/UX Designer @Academy</b>
+                        </h5>
+                        liaislrjlkasksfmlksdmdmflksmddflkmsdlfkfmsd;lamf
+                        <br>
+                        <br>
+                        <div class="custom-content-wrapper"></div>
+                        <br>
+                        <h5>
+                            <b>UI/UX Designer @Academy</b>
+                        </h5>
+                        liaislrjlkasksfmlksdmdmflksmddflkmsdlfkfmsd;lamf
+                    </div>
+                </div>
+            </div>
+            <br>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

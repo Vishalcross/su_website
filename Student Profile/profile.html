@@ -7,20 +7,107 @@
         <style>
             .left-container{
                 margin-top:10px;
-                width:30%;
+                width:25%;
+                background-color:yellowgreen;
+                margin-bottom:10px;
             }
-            .image-holder{
-                background-color: red;
-                width:100%;
-            }
+
             .profile-picture{
                 margin:0 auto;
                 width:100%;
-                height:200px;
+                height:288px;
             }
             .name{
                 position:relative;
                 z-index:1;
+                top:-80px;
+                font-family:"Raleway", sans-serif;
+                color:white;
+                font-size:170%;
+                left:-30px;
+            }
+            .job-title{
+                position:relative;
+                top:-85px;
+                font-family:"Montserrat", sans-serif !important;
+                color:white;
+                font-size:120%;
+                left:-30px;
+                margin-bottom: -30px;
+            }
+
+            .profile-iconset{
+                font-size: 150%;
+            }
+
+            .info-holder{
+                font-family: "Ubuntu", sans-serif;
+                width:275px;
+                position:relative;
+                left:10px;
+                color:ghostwhite;
+            }
+            .about-text{
+                width:225px;
+                position:relative;
+                top:-32px;
+                left:40px;
+                font-size:105%;
+                margin-bottom:-15px;
+                text-align:justify;
+            }
+            .phone-number{
+                position:relative;
+                top:-32px;
+                left:40px;
+                width:250px;
+                font-size:110%;
+                margin-bottom:-30px;
+            }
+            .social a:visited{
+                color:ghostwhite;
+            }
+            .social a:hover{
+                color:ghostwhite;
+            }
+            .social-icon{
+                margin-left:50px;
+            }
+
+            .skills-header{
+                position:relative;
+                left:40px;
+                top:-30px;
+                margin-bottom:-20px;
+            }
+            .skills-list{
+                width:250px;
+
+            }
+            .profile-skills{
+                background-color:yellowgreen;
+                height:200px;
+                width:285px;
+                margin-bottom:-20px;
+                margin-top:-20px;
+                position:relative;
+                left:-10px;
+                padding:10px 0 10px 10px;
+            }
+            .contact-details{
+                background-color: yellowgreen;
+                position: relative;
+                left:-10px;
+                top:-20px;
+                width:285px;
+                padding-top:30px;
+                margin-bottom:-10px;
+                height:140px;
+                padding-left:10px;
+            }
+            .social{
+                position: relative;
+
             }
         </style>
 
@@ -34,17 +121,59 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"          crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <script src="https://use.fontawesome.com/0f7c31cf63.js"></script>
     </head>
 
 
     <body>
         <div class="container">
-                <div class="bg-info left-container">
+                <div class="left-container">
                     <div class="image-holder">
-                        <img class="profile-picture" src="1.jpg" />
+                        <img  class="profile-picture" src="1.jpg" />
                     </div>
                     <div class="name-holder">
                         <div class="name text-center">John Taylor</div>
+                        <div class="job-title text-center">Manager</div>
+                    </div>
+
+                    <div class="info-holder">
+
+                        <div class="about">
+                            <span class="glyphicon glyphicon-user profile-iconset"></span>
+                            <p class="about-text">I manage business effectively and tactfully by employing statistical models and 20 years of experience</p>
+                        </div>
+
+
+                        <div class="profile-skills">
+                            <span class="glyphicon glyphicon-wrench profile-iconset"></span>
+                            <p class="skills-header">SKILLS</p>
+                            <ul class="skills-list">
+                                <li>Cricket</li>
+                                <li>Coding</li>
+                                <li>Camping</li>
+                                <li>Driving</li>
+                                <li>Arduino</li>
+                            </ul>
+                        </div>
+
+                        <div class="contact-details">
+                            <span class="glyphicon glyphicon-earphone profile-iconset"></span>
+                            <p class="phone-number">+9-6309237462378946</p>
+
+                            <hr>
+
+                            <span class="glyphicon glyphicon-envelope profile-iconset"></span>
+                            <p class="phone-number">taylor.jaoh@heading.com</p>
+                        </div>
+
+                        <div class="social profile-iconset">
+                                <a href="#"><i class="social-facebook social-icon fa fa-facebook"                 aria-hidden="true"></i></a>
+                                <a href="#"><i class="social-github social-icon fa fa-github"       aria-hidden="true"></i></a>
+                                <a href="#"><i class="social-linkedin social-icon fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </div>
                     </div>
                 </div>
         </div>
